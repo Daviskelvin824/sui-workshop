@@ -1,0 +1,15 @@
+[package]
+name = "simple_nft_collection"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+simple_nft_collection = "0x0"
+deploy_digest: "EDB6RK3C29Cve9XPTRi3Wo3VSm28538DaXYAkfdr5mH3"
+treasury_cap: "0x88b7c6f290af0526c5899898cec658cefd46f723f80a022aa3500998c03bc809"
+admin_cap: "0x40c349ba1d697f1b96bfcb9a7c406b0ae7aba2d086209f7168e1b24cb7f16bd2"
+collection: "0xbd43ecbd9746e6e6dd40134eb795582379343497d4c6496243d38ee06d79b412"
+sui_coin: "0x29b058483a6b3342a66c169377b79ecf593fc82ed793cfa6cd777fc769a902ca"
